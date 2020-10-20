@@ -1,14 +1,19 @@
 body{
+    background-color: #f4f4f4;
     font-family: 'Libre Franklin', Arial, sans-serif;
     font-size: 15px;
     line-height: 1.2;
-    background-color: #f4f4f4;
 }
 
 a{
     color: #000000;
     text-decoration: none;
 }
+
+img {
+    max-height: 100%;
+}
+
 /*
 .container-header{
     display: flex;
@@ -39,11 +44,7 @@ a{
     height: 100%;
     width: auto;
 }
-*/
-img {
-    max-height: 100%;
-}
-/*
+
 nav{
     display: flex;
     align-items: center;
@@ -130,10 +131,10 @@ nav{
 }
 
 .figcaption {
+    padding-top: 6px;
     font-size: 12px;
 	line-height: 1.5;
 	font-weight: 400;
-	padding-top: 6px;
 	word-wrap: break-word;
 	color: #767676;
 }

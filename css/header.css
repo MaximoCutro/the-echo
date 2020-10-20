@@ -7,20 +7,20 @@
 }
 
 #branding{
+    padding-right: 10px;
+    padding-left: 10px;
     height: 100%;
     width: auto;
+    background-color: #093357;
     font-size: 18px;
     color: #ffffff;
     letter-spacing: 4px;
-    background-color: #093357;
-    padding-right: 10px;
-    padding-left: 10px;
 }
 
 .date{
+    align-self: baseline;
     font-size: 12px;
     color: #ffffff;
-    align-self: baseline;
 }
 
 .logo {
