@@ -20,12 +20,21 @@ img {
 }
 
 .content-main{
+    flex-basis: 40%;
     margin-right: 20px;
     margin-left: 20px;
     padding-right: 20px;
     padding-left: 20px;
     border-right: 1px #e6e6e6 solid;
     border-left: 1px #e6e6e6 solid;
+}
+
+.content-secondary{
+    flex-basis: 15%;
+}
+
+.content-opinions{
+    flex-basis: 15%;
 }
 
 .subject{
@@ -53,19 +62,7 @@ img {
     width: 100%;
 }
 
-@media screen and (min-width: 1024px){
-    .content-secondary{
-        flex-basis: 15%;
-    }
-    .content-opinions{
-        flex-basis: 15%;
-    }
-    .content-main{
-        flex-basis: 40%;
-    }
-}
-
-@media screen and (max-width: 1023px) and (min-width: 768px){
+@media screen and (max-width: 1023px){
     .container-main{
         flex-wrap: wrap;
     }
@@ -83,7 +80,6 @@ img {
 
 @media screen and (max-width: 767px){
     .container-main{
-        display: flex;
         flex-direction: column;
         padding-right: 10px;
         padding-left: 10px;

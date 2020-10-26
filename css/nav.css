@@ -38,7 +38,6 @@ nav{
 
 @media screen and (max-width: 768px){
     .nav-links{
-        display: flex;
         flex-basis: 50%;
         flex-direction: column;
         align-items: center;
