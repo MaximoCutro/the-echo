@@ -8,7 +8,7 @@ Creating home page of a fictional newspaper.
 
 GitHub pages:
 
-https://maximocutro.github.io/the-echo/
+[The Echo](https://maximocutro.github.io/the-echo/)
 
 ---
 
