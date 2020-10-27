@@ -17,6 +17,11 @@
     letter-spacing: 4px;
 }
 
+#branding a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
 .date{
     align-self: baseline;
     font-size: 12px;
